@@ -1,0 +1,60 @@
+body{
+    background-image: url(https://i.ytimg.com/vi/vRk6Gc_ec6E/maxresdefault.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#menu{
+    width: 100vw;
+    height: 100vh;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+#opcao1,#opcao2,#opcao3{
+    width: 70vw;
+    height: 70vh;
+    background-color: transparent;
+   color: rgb(255, 255, 255);
+   font-family: ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 60px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#opcao1:hover{
+opacity: 0.8;
+border-radius: 50%;
+background-image: url(https://gifdb.com/images/high/escanor-498-x-277-gif-goadu58lvbb10n1w.gif);
+transition: 2.0s;
+color: rgb(0, 0, 0);
+}
+
+#opcao2:hover{
+    opacity: 0.8;
+    border-radius: 50%;
+    background-image: url(https://steamuserimages-a.akamaihd.net/ugc/1725416281203878585/ACD307D38C6906480693DB24BAAD6E5D83536A19/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false);
+    transition: 2.0s;
+    color: rgb(0, 0, 0);
+    }
+
+#opcao3:hover{
+        opacity: 1;
+        border-radius: 50%;
+        background-image: url(https://pa1.aminoapps.com/6710/54a507ce4644bed77cc49f95c7b3d637f254181f_hq.gif);
+        transition: 2.0s;
+        color: rgb(0, 0, 0);
+        }
+
+*{
+    margin-top: 0;
+    box-sizing: border-box;
+}
